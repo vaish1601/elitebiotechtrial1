@@ -1,0 +1,85 @@
+html{
+    scroll-behavior: smooth;
+}
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.jumbotron{
+  background-color: #1a4726;
+  color: rgb(253, 253, 253);
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.navbar-dark{
+    background-color: #0f3319;
+}
+.tab-content{
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    padding:10px;
+}
+
+.carousel {
+    background:#1a4726;
+}
+
+.carousel-item {
+  height: 100vh;
+  width: 100vw;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+}
+#carouselButton{
+    right:0px;
+    position:absolute;
+    bottom: 0px;
+}
+.social-icon {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icon li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .social-icon li a {
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 10px 10px 42px 10px;
+    padding: 0px;
+  }
+  
+  .social-icon li a:hover {
+    background: #ffffff;
+    color: #042703;
+  }
+  .font-size-20{
+    font-size: 20px;
+    text-align: center;
+  }
+  .rounded-circle{
+    border-radius: 50%;
+    height: 80%;
+    width: 80% ;
+  }
